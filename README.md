@@ -8,7 +8,7 @@ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1 --git-l
 ````
 Then you need to clone the local_manifest:
 ````bash
-git clone https://github.com/FlominatorGD/manifest-gtaxlwifi.git -b lineage-19.1 .repo/local_manifests
+git clone https://github.com/FlominatorGD/manifest-gtaxlwifi.git -b lineage-19.1-gtaxl .repo/local_manifests
 ````
 Then to sync up:
 ````bash
