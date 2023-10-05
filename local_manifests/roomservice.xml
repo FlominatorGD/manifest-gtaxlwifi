@@ -9,7 +9,7 @@
 
   <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="12" />
 
-  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="los-19.1" />
+  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1-audimprov" />
 
   <project name="followmsi/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-19.1-talu" />
 
