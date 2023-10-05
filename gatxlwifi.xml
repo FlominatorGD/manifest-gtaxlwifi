@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="followmsi/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="los-19.1_64" />
-  <!-- <project name="followmsi/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="los-18.1_64" /> -->
+  <remote fetch="https://github.com/followmsi" name="followmsi-gtaxlwifi" />
+  <project name="android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="followmsi-gtaxlwifi" revision="los-19.1_64" />
 
-  <project name="followmsi/android_vendor" path="vendor/samsung/gtaxlwifi" remote="github" revision="gtaxlwifi-lineage-19.1_64" />
-  <!-- <project name="followmsi/android_vendor" path="vendor/samsung/gtaxllte" remote="github" revision="gtaxllte-lineage-18.1_64" /> -->
+  <project name="android_vendor" path="vendor/samsung/gtaxlwifi" remote="followmsi-gtaxlwifi" revision="gtaxlwifi-lineage-19.1_64" />
 
-  <project name="followmsi/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="12" />
+  <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="followmsi-gtaxlwifi" revision="12" />
 
-  <project name="followmsi/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1-audimprov" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="followmsi-gtaxlwifi" revision="lineage-19.1-audimprov" />
 
-  <project name="followmsi/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-19.1-talu" />
+  <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="followmsi-gtaxlwifi" revision="lineage-19.1-talu" />
 
-  <project name="followmsi/android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="github" revision="lineage-19.1" />
+  <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="followmsi-gtaxlwifi" revision="lineage-19.1" />
 
-  <project name="followmsi/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-19.1-talu" />
+  <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="followmsi-gtaxlwifi" revision="lineage-19.1-talu" />
+  
   <remote fetch="https://github.com/LineageOS" name="slsi-sepolicy" />
   <!-- Slsi SEpolicy -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="slsi-sepolicy" revision="lineage-19.1" />
